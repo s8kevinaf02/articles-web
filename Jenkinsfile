@@ -14,7 +14,7 @@ pipeline {
                 }
             }
         }
-        stage('Create a directory') {s
+        stage('Create a directory') {
             steps {
                 script {
                     sh """
