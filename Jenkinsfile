@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'SERVER4' }
+    agent { label 'SERVER04' }
     parameters {
         string(name: 'BRANCH_NAME', defaultValue: 'main', description: '')
     }
